@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>홈페이지</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header class="top-bar">
+		<a href="home.html">
+			<img src="images/icon.png" alt="로고" class="logo">
+		</a>
+	    <nav class="nav-menu">
+	        <input type="text" placeholder="영화 검색" class="search-input">
+	    </nav>
+	</header>
+
+<div class="main-content">
+	<div class="card-container">
+	
+		<!-- 이 부분이 영화 카드 1개입니다 -->
+		<a href="detail.html" class="card">
+		<!-- 이미지 경로 -->
+			<img src="images/포스터.png" alt="포스터" class ="card-img">
+			<img src="images/level6.png" alt="level 6" class="card-level">
+			<!--  영화 이름 -->
+			<div class="card-name">다크 나이트</div>
+			<!-- 영문명, 년도, 러닝타임 -->
+			<div class="card-ename">The Dark Knight · 2008 · 152m</div>
+			<!-- 영화 태그 -->
+			<div class="card-tag">액션 · 범죄 · 서스펜스</div>
+		</a>
+		
+		<!-- 이 아래는 같은 내용 반복입니다 -->
+		<a href="detail.html" class="card">
+			<img src="images/포스터.png" alt="다크 나이트" class ="card-img">
+			<img src="images/level5.png" alt="level 5" class="card-level">
+			<div class="card-name">다크 나이트</div>
+			<div class="card-ename">The Dark Knight · 2008 · 152m</div>
+			<div class="card-tag">액션 · 범죄 · 서스펜스</div>
+		</a>
+			<a href="detail.html" class="card">
+			<img src="images/포스터.png" alt="다크 나이트" class ="card-img">
+			<img src="images/level4.png" alt="level 4" class="card-level">
+			<div class="card-name">다크 나이트</div>
+			<div class="card-ename">The Dark Knight · 2008 · 152m</div>
+			<div class="card-tag">액션 · 범죄 · 서스펜스</div>
+		</a>
+			<a href="detail.html" class="card">
+			<img src="images/포스터.png" alt="다크 나이트" class ="card-img">
+			<img src="images/level3.png" alt="level 3" class="card-level">
+			<div class="card-name">다크 나이트</div>
+			<div class="card-ename">The Dark Knight · 2008 · 152m</div>
+			<div class="card-tag">액션 · 범죄 · 서스펜스</div>
+		</a>
+			<a href="detail.html" class="card">
+			<img src="images/포스터.png" alt="다크 나이트" class ="card-img">
+			<img src="images/level2.png" alt="level 2" class="card-level">
+			<div class="card-name">다크 나이트</div>
+			<div class="card-ename">The Dark Knight · 2008 · 152m</div>
+			<div class="card-tag">액션 · 범죄 · 서스펜스</div>
+		</a>
+			<a href="detail.html" class="card">
+			<img src="images/포스터.png" alt="다크 나이트" class ="card-img">
+			<img src="images/level1.png" alt="level 1" class="card-level">
+			<div class="card-name">다크 나이트</div>
+			<div class="card-ename">The Dark Knight · 2008 · 152m</div>
+			<div class="card-tag">액션 · 범죄 · 서스펜스</div>
+		</a>
+	</div> 
+	
+	
+	<div class="filter-box">
+        <h3>검색 필터</h3>
+        <label>장르</label>
+        <select>
+            <option>전체</option>
+            <option>액션</option>
+            <option>드라마</option>
+            <option>로맨스</option>
+            <option>스릴러</option>
+        </select>
+
+        <label>개봉 연도</label>
+        <select>
+            <option>전체</option>
+            <option>2020~</option>
+            <option>2010~2019</option>
+            <option>2000~2009</option>
+            <option>~2000</option>
+        </select>
+
+        <label>난이도</label>
+        <select>
+            <option>전체</option>
+            <option>A1</option>
+            <option>A2</option>
+            <option>B1</option>
+            <option>B2</option>
+            <option>C1</option>
+            <option>C2</option>
+        </select>
+        
+        <label>정렬</label>
+        <select>
+            <option>기본순</option>
+            <option>어려운순</option>
+            <option>쉬운순</option>
+            <option>최신순</option>
+            <option>오래된순</option>
+        </select>
+
+		<!-- 검색 구현 -->
+        <button class="filter-btn">검색</button>
+    </div>
+</div>
+</body>
+</html>
