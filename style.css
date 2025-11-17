@@ -7,10 +7,36 @@
 	background-color: #ffffff; 
 	display: flex;
 	align-items: center;
-	padding: 0 50px;
+	padding-left: 50px;
+	padding-right:30px;
 	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 	z-index: 9999;
 }
+
+.top-login-btn {
+	margin-right:20px;
+    margin-left: auto;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #f2f2f2; 
+    cursor: pointer;
+    text-decoration: none;  
+    color: #333; 
+}
+
+.top-signup-btn {
+	margin-right:90px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #f2f2f2; 
+    cursor: pointer;
+    text-decoration: none;  
+    color: #333; 
+}
+
+
 
 .main-content {
 	display: flex;
@@ -82,7 +108,6 @@
 	z-index: 2;
 }
 
-/* 오른쪽 필터 박스 */
 .filter-box {
 	width: 240px;
 	background: #ffffff;
@@ -169,7 +194,6 @@ body {
 	padding-top: 60px;
 }
 
-/* 영화 상단 정보 */
 .box1 { 
 	position: relative; 
     height: auto;  
@@ -242,7 +266,6 @@ body {
 	object-fit: cover;
 }
 
-/* 상세 분석 */
 .box2-detail {
 	margin-top: 40px;
 	background-color: #ffffff;
@@ -261,14 +284,12 @@ body {
 	padding-left: 10px;
 }
 
-/* 그리드 배치 */
 .detail-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
 	gap: 30px;
 }
 
-/* 세부 카드 */
 .detail-card {
 	background: #f8f9ff;
 	border-radius: 15px;
@@ -282,7 +303,6 @@ body {
 	color: #334;
 }
 
-/* 막대 그래프 */
 .bar-group {
 	margin-bottom: 10px;
 }
@@ -306,9 +326,136 @@ body {
 	border-radius: 10px;
 }
 
-/* 설명 텍스트 */
 .stat-desc {
 	font-size: 13px;
 	color: #777;
 	margin-top: 6px;
+}
+
+
+/*******************/
+
+.login-container {
+    width: 100%;
+    max-width: 360px;
+    margin: 70px auto 0 auto;
+    padding: 40px 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.input-group {
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.login-btn:hover {
+    background-color: #e5e5e5;
+}
+
+.signup-box {
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.signup-box a {
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+}
+
+.signup-box a:hover {
+    background-color: #eaeaea;
+}
+
+/*******************/
+
+.signup-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 40px auto 0 auto;
+    padding: 40px 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.signup-container h2 {
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.signup-container .input-group {
+    margin-bottom: 18px;
+}
+
+.signup-container .input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.signup-container .input-group input,
+.signup-container .input-group select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.signup-btn {
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.signup-btn:hover {
+    background-color: #e5e5e5;
 }
